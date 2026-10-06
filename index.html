@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mi página web</title>
 </head>
 <body>
+    <section>
+    <h2>Una frase que me gusta </h2>
+
+    <blockquote>
+       «Al final, lo que importa no son los años de vida, sino la vida de los años» – Abraham Lincoln.
+    </blockquote>
+</section>
+
 <header>
     <nav>
-<ul>
-<li><a href="#sobre-mi">Sobre mí</a></li>
-<li><a href="#materias">Mis materias</a></li>
-<li><a href="#hobbies">Mis hobbies</a></li>
-<li><a href="#contacto">Contacto</a></li>
-</ul>
+    <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#materias">Mis materias</a></li>
+        <li><a href="#hobbies">Mis hobbies</a></li>
+        <li><a href="#musica">Mis gustos musicales</a></li>
+        <li><a href="#gato">Mi gato CHANO</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
 </nav>
 <h1>¡Hola! Soy Virginia Audenino</h1>
-<p>Estudiante de segundo año — Orientación Informática</p>
+<p>Estudiante de tercer año — Orientación Informática</p>
 </header>
 <main>
 <section id="sobre-mi">
 <h2>Sobre mí</h2>
 <figure>
-<img src="foto.jpg" alt="Foto de Virginia Audenino" width="200">
+<img src="vir.jpg" alt="Foto de Virginia Audenino" width="200">
 <figcaption>Así soy yo</figcaption>
 </figure>
 <p>Tengo 14 años, vivo en Córdoba capital, me gusta el rosa y vengo a este colegio por la buena gente.</p>
 </body>
+<body id="top"></body>
 </html>
 <section id="materias">
 <h2>Mis materias</h2>
@@ -36,17 +48,43 @@
 <li>Historia</li>
 <li>y FVT</li>
 </ul>
-<table border="1">
-<tr>
-<th>Lengua</th>
-<th>Lunes y Martes</th>
-</tr>
-<tr>
-<td>Historia</td>
-<td>Jueves y Viernes</td>
-</tr>
+<table class="horario">
+    <tr>
+        <th>Materia</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+    </tr>
+
+    <tr>
+        <td> Lengua</td>
+        <td>-</td>
+        <td>-</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td> Historia</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+
+    <tr>
+        <td> FVT</td>
+        <td></td>
+        <td></td>
+        <td>-</td>
+        <td></td>
+        <td>-</td>
+    </tr>
 </table>
-</section>
 <section id="hobbies">
 <h2>Mis hobbies</h2>
 <article>
@@ -60,9 +98,27 @@
 <aside>
 <p>Dato curioso: también me gustan los videojuegos.</p>
 </aside>
+<h2>Mis gustos musicales</h2>
+<figure>
+<img src="rosa.jpg" alt="Foto de Virginia Audenino" width="200">
+<figcaption>Yo la verdad escucho muchisimas canciones y muchos cantantes, pero en especial escucho mi banda favorita de Corea del Sur TWICE</figcaption>
+</figure>
+</section>
+<section id="gato">
+<h2>Mi gato CHANO</h2>
+<figure>
+<img src="20260915_235643 (1).jpg" alt="Foto de Virginia Audenino" width="200">
+<figcaption>El es mi gatito bebe Chano Miguel, tiene dos nombres porque mi hermano y yo no nos decidiamos, es un gato macho de nisiquiera un año y lo amo mucho.</figcaption>
+</figure>
+</section>
+<section id="mood">
+    <h2>🎀 Mi mood actual</h2>
+
+    <p>Estado: <strong>Mientras hago esta pagina estoy con mis amigas Alma y Valentina (tengo ganas de que ya sean vacaciones) </strong></p>
+    <p>Mi cancion favorita actual: Heartbreak avenue de TWICE</p>
 </section>
 </main>
 <footer>
-<p id="contacto">Contacto: [vaudenino@escuelasproa.edu.ar]</p>
-<p>&copy; 2026 [Virginia Audenino]. Todos los derechos reservados.</p>
+<p id="contacto">Contacto: vaudenino@escuelasproa.edu.ar</p>
+<p>&copy; 2026 Virginia Audenino. Todos los derechos reservados.</p>
 </footer>

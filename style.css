@@ -1,0 +1,94 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #ffb9d6;
+color: #000000;
+margin: 0;
+}
+header {
+background-color: #fbffff;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 40px;
+}
+h1 {
+font-size: 40px;
+margin-bottom: 10px;
+}
+body {
+    background-color: pink;
+    font-family: cursive;
+}
+footer {
+    background: linear-gradient(135deg, #ffb9d6, #befffc);
+    color: #5c3a4d;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.15);
+}
+
+footer h2 {
+    font-size: 25px;
+    color: #d94f8a;
+}
+
+footer p {
+    font-size: 16px;
+}
+.horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff7fb;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.horario th {
+    background-color: #ff69b4;
+    color: white;
+    padding: 15px;
+}
+
+.horario td {
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #ffc4dc;
+}
+
+.horario td:first-child {
+    font-weight: bold;
+    color: #d94f8a;
+    text-align: left;
+}
+
+.horario tr:hover {
+    background-color: #ffe4f0;
+}
+nav a {
+    color: #d94f8a;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff69b4;
+}
+html {
+    background-color: #ffb9d6;
+}
+
+body {
+    margin: 0;
+    background-color: #ffb9d6;
+    font-family: cursive;
+}
+* {
+    box-sizing: border-box;
+}
+figure img {
+    border-radius: 15px;
+    border: 5px solid #ffb9d6;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
